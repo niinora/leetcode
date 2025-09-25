@@ -21,7 +21,7 @@ namespace Leetcode.ArrayHashing
             }
             throw new Exception("complements not found!");
         }
-        // First solution works well but hat little problem which is returning first array indexes it returns numbers from sorted array so its
+        // First solution works well but hat problem which is returning first array indexes it returns numbers from sorted array so its
         // indexes won't match. second solution doesn't have this problem.
 
         public int[] TwoSum2(int[] nums, int target) 

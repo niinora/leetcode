@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Leetcode.ArrayHashing;
 using Leetcode.Stack;
+using Leetcode.TwoPointers;
 
 //Console.WriteLine(11%9*4);
 
@@ -18,6 +19,7 @@ using Leetcode.Stack;
 //Console.WriteLine(postfix.EvalRPN(arr));
 
 
-int[] arr = new int[] { 1, 2, 3 };
-Stack<int> stack = new Stack<int>(arr);
-Console.WriteLine(stack.Peek());
+string s = "race ae car";
+var pal = new ValidPalindrome();
+bool b = pal.IsPalindrome(s);
+Console.WriteLine(b);
